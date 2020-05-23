@@ -1,4 +1,4 @@
-# Daury Mendes Resume
+# Daury Mendes 
 
 Será meu currículo/portfólio. 
 
