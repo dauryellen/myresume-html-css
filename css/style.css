@@ -1,0 +1,172 @@
+/* RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #d0d0d1;
+  background-color: #131217;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+  background: #663399;
+}
+
+.menu-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-container a {
+  color: #fff;
+}
+
+.menu-logo a {
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 0 5px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.menu-items ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-items a {
+  font-size: 1.1em;
+  display: block;
+  padding: 5px 15px;
+  transition: 0.8s;
+}
+
+.menu-items a:hover {
+  color: #d0d0d1;
+}
+
+/* ABOUT SECTION */
+
+.about {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  /*height: 100vh;*/
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-container img {
+  max-width: 230px;
+  border: 5px solid rgba(102, 51, 153, 0.4);
+  border-radius: 50%;
+}
+
+.about-container h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+@media (max-width: 375px) {
+  .about-container h1 {
+    font-size: 2.5em;
+  }
+}
+
+.about-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.about-container li {
+  margin: 5px 10px;
+  padding: 5px;
+  font-size: 2.25em;
+  transition: transform 500ms;
+}
+
+@media (max-width: 375px) {
+  .about-container li {
+    font-size: 2em;
+  }
+}
+
+.about-container li:hover {
+  transform: scale(1.5);
+}
+
+.about-container li a {
+  transition: text-shadow 0.8s;
+}
+
+.about-container li a:hover {
+  text-shadow: 0px 0px 10px rgba(102, 51, 153, 0.5);
+}
+
+.about-container li a:active {
+  color: #d0d0d1;
+}
+
+.about-container p {
+  margin-top: 15px;
+  font-size: 1.25em;
+  padding: 0 10px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.about-container p a {
+  text-decoration: underline;
+  transition: 0.8s;
+}
+
+.about-container p a:hover,
+.about-container p a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+#sobrenome {
+  color: #663399;
+}
