@@ -18,23 +18,23 @@
     <header class="header">
       <div class="menu-container">
         <div class="menu-logo">
-          <a href="#">${Daury}|</a>
+          <a href="#about"><i class="fas fa-code"></i></a>
         </div>
         <nav class="menu-items">
           <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
             <li><a href="#">Educação</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-container">
         <img src="./img/profile.jpg" alt="Foto de Daury" />
-        <h1>Daury <span id="sobrenome">Mendes</span></h1>
+        <h1>Daury <span id="lastname">Mendes</span></h1>
         <h2>web developer</h2>
         <ul>
           <li>
@@ -77,6 +77,39 @@
           estou aprendendo no momento.
         </p>
       </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1 class="title-skills">Minhas Habilidades</h1>
+      <div class="skills-container">
+        <p>HTML - <i class="fab fa-html5"></i></p>
+        <div class="container-skill">
+          <div class="skills-item html">80%</div>
+        </div>
+
+        <p>CSS - <i class="fab fa-css3-alt"></i></p>
+        <div class="container-skill">
+          <div class="skills-item css">50%</div>
+        </div>
+
+        <p>JavaScript - <i class="fab fa-js-square"></i></p>
+        <div class="container-skill">
+          <div class="skills-item js">40%</div>
+        </div>
+
+        <p>Git - <i class="fab fa-git-square"></i></p>
+        <div class="container-skill">
+          <div class="skills-item git">55%</div>
+        </div>
+
+        <p>GitHub - <i class="fab fa-github-square"></i></p>
+        <div class="container-skill">
+          <div class="skills-item github">70%</div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      My Projects
     </section>
   </body>
 </html>
