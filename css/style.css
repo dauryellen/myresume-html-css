@@ -2,9 +2,6 @@
 
 * {
   box-sizing: border-box;
-}
-
-html {
   scroll-behavior: smooth;
 }
 
@@ -236,25 +233,66 @@ img {
 
 .html {
   width: 80%;
-  background-color: #1115d3;
+  /*background: #1115d3;*/
+  /*background: linear-gradient(135deg, #1115d355, #1115d3);*/
+  background: linear-gradient(
+    to right,
+    #1115d366 0%,
+    #1115d399 25%,
+    #1115d3aa 50%,
+    #1115d3cc 75%,
+    #1115d3ff 100%
+  );
 }
 .css {
   width: 50%;
-  background-color: #056b1f;
+  /*background-color: #056b1f;*/
+  background: linear-gradient(
+    to right,
+    #056b1f66 0%,
+    #056b1f99 25%,
+    #056b1faa 50%,
+    #056b1fcc 75%,
+    #056b1fff 100%
+  );
 }
 .js {
   width: 40%;
-  background-color: #f44336;
+  /*background-color: #f44336;*/
+  background: linear-gradient(
+    to right,
+    #f4433666 0%,
+    #f4433699 25%,
+    #f44336aa 50%,
+    #f44336cc 75%,
+    #f44336ff 100%
+  );
 }
 
 .git {
   width: 55%;
-  background-color: #f73893;
+  /*background-color: #f73893;*/
+  background: linear-gradient(
+    to right,
+    #f7389366 0%,
+    #f7389399 25%,
+    #f73893aa 50%,
+    #f73893cc 75%,
+    #f73893ff 100%
+  );
 }
 
 .github {
   width: 70%;
-  background-color: #663399;
+  /*background-color: #663399;*/
+  background: linear-gradient(
+    to right,
+    #66339966 0%,
+    #66339999 25%,
+    #663399aa 50%,
+    #663399cc 75%,
+    #663399ff 100%
+  );
 }
 
 #lastname {
@@ -269,6 +307,7 @@ img {
   max-width: 960px;
 
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 440px) {
@@ -350,47 +389,30 @@ img {
   align-items: center;
 }
 
-/*.projects {
-  min-height: 100vh;
-  padding-top: 50px;
+.project-item a {
+  color: #d0d0d1;
 }
 
-@media (max-width: 440px) {
-  .projects {
-    padding-top: 70px;
-  }
+.project-item a:hover {
+  color: white;
 }
 
-.title-projects {
-  margin: 20px 0 10px 0;
-  padding: 20px;
+/* FOOTER */
+.footer {
   text-align: center;
-  font-size: 3em;
-  text-transform: uppercase;
-}
-
-@media (max-width: 375px) {
-  .title-projects {
-    font-size: 2.2em;
-  }
-}
-
-.list-projects {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-item {
-  flex: 1 1 250px;
-  margin: 10px 10px;
-  border: 5px solid rgba(102, 51, 153, 0.4);
-  border-radius: 8px;
+  padding: 10px;
   background-color: rgba(102, 51, 153, 0.4);
 }
 
-.project-item p {
-  text-align: center;
-  padding: 15px 0 5px 0;
-}*/
+.footer p {
+  padding: 10px;
+}
+
+.footer a {
+  color: #d0d0d1;
+  font-weight: 700;
+}
+
+.footer a:hover {
+  color: white;
+}
